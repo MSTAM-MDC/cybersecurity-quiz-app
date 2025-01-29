@@ -1,0 +1,46 @@
+/* General Styles */
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #f5f5f5; /* Light gray background */
+}
+
+/* Label Styles */
+.label {
+    -fx-text-fill: #333333; /* Dark gray text */
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+/* Button Styles */
+.button {
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #45A049; /* Darker green on hover */
+}
+
+.button:pressed {
+    -fx-background-color: #388E3C; /* Even darker green when pressed */
+}
+
+/* RadioButton Styles */
+.radio-button {
+    -fx-text-fill: #333333; /* Dark gray text */
+    -fx-font-size: 14px;
+}
+
+.radio-button:selected {
+    -fx-text-fill: #4CAF50; /* Green text when selected */
+}
+
+/* High Contrast Theme */
+.high-contrast {
+    -fx-background-color: black;
+    -fx-text-fill: yellow;
+}
